@@ -1,0 +1,332 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Bilem Yapı</title>
+    <link rel="stylesheet" href="css/style.css" />
+    <link
+      rel="stylesheet"
+      href="css/bootstrap.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/imagehover.css/2.0.0/css/imagehover.min.css
+    ">
+
+    <script
+      src="https://kit.fontawesome.com/c9c42e5310.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <!-- Üst Menü -->
+    <!-- <div class="ust bg-danger">
+      <div class="container">
+        <ul class="nav justify-content-end text-center">
+          <li class="nav-item">
+            <a class="nav-link text-white" href="#"
+              ><i class="fab fa-facebook-f" style="color:white"></i
+            ></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-white" href="#"
+              ><i class="fab fa-twitter" style="color:white"></i
+            ></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-white" href="#"
+              ><i class="fab fa-youtube" style="color:white"></i
+            ></a>
+          </li>
+        </ul>
+      </div>
+    </div> -->
+
+    <!-- Logo -->
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12 text-center p-3">
+          <a href="index.html"><img src="img/logo.png" alt="logo"/></a>
+        </div>
+      </div>
+    </div>
+
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-danger sticky-top" >
+      <div class="container">
+        <a class="navbar-brand" href="#"> </a>
+        <button class="navbar-toggler float-right" type="button" data-toggle="collapse" 
+        data-target="#navbarNavDropdown"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse justify-content-center " id="navbarNavDropdown">
+          <ul class="navbar-nav">
+            <li class="nav-item active">
+              <a class="nav-link" href="index.html"
+                >ANA SAYFA </a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="hakkimizda.html">HAKKIMIZDA</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle"
+                href="sorumluklarimiz.html"
+                id="navbarDropdownMenuLink"
+                role="button"
+                data-toggle="dropdown"
+              >
+                Sorumluluklarımız
+              </a>
+              <div
+                class="dropdown-menu"
+              >
+              <a class="dropdown-item" href="sisg.html">İş Sağlığı Güvenliği</a>
+              <a class="dropdown-item" href="scevre.html">Çevre Sorumluluğu</a>
+              </div>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="projeler.html">PROJELER</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="basin.html">BASIN</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="iletisim.html">İLETİŞİM</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Slider -->
+    <div class="container">
+      <div class="slider">
+        <div
+          id="carouselExampleIndicators"
+          class="carousel slide"
+          data-ride="carousel"
+        >
+          <ol class="carousel-indicators">
+            <li
+              data-target="#carouselExampleIndicators"
+              data-slide-to="0"
+              class="active"
+            ></li>
+            <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+            <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+            <li data-target="#carouselExampleIndicators" data-slide-to="3"></li>
+          </ol>
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img src="img/0.jpg" class="d-block w-100" alt="..." />
+            </div>
+            <div class="carousel-item">
+              <img src="img/1.png" class="d-block w-100" alt="..." />
+            </div>
+            <div class="carousel-item">
+              <img src="img/2.png" class="d-block w-100" alt="..." />
+            </div>
+            <div class="carousel-item">
+              <img src="img/3.png" class="d-block w-100" alt="..." />
+            </div>
+          </div>
+          <a
+            class="carousel-control-prev"
+            href="#carouselExampleIndicators"
+            role="button"
+            data-slide="prev"
+          >
+            <span class="carousel-control-prev-icon"></span>
+          </a>
+          <a
+            class="carousel-control-next"
+            href="#carouselExampleIndicators"
+            role="button"
+            data-slide="next"
+          >
+            <span class="carousel-control-next-icon"></span>
+          </a>
+        </div>
+      </div>
+    </div>
+
+    <!-- cardhakkimizda -->
+    <div class="container">
+        <div class="cardhakkimizda">
+         <div class="card">
+      <div class="row ">
+        <div class="col-md-7 justify-center">
+            <img src="img/ahakkimizda.png" class="img-fluid">
+          </div>
+          <div class="col-md-5 px-3">
+            <div class="card-block px-3">
+              <h4 class="card-title mt-3">HAKKIMIZDA</h4>
+              <p class="card-text">BİLEM İnşaat A.Ş. sıra dışı yaklaşımlarıyla sektörde konut anlayışına yeni bir hareket getiriyor. Kaliteden ödün vermeyen duruşu ve hep yenilikçi yaklaşımıyla BİLEM İnşaat; bu güne kadar yatırımcılarına hem kazandıran, hem de konforlu yaşam sunan birçok projeyi hayata geçirmiştir...   </p>
+              <p class="card-text">Konforlu yaşam sunan birçok projeyi hayata geçirmiştir...</p>
+              <a href="hakkimizda.html" class="btn btn-outline-danger">Devamını Oku</a>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </div>
+    </div>
+
+    <!-- İmage Hover -->
+    <div class="container">
+      <div class="imagehover">
+        <h3 class="text-danger">PROJELERİMİZ</h3>
+        <hr class="bg-danger">
+      <div class="row">
+        <div class="col-12 col-sm-8 col-md-3 col-lg-3">
+          <figure class="imghvr-fade refopacity">
+            <img src="img/blok2-1.jpg">
+            <figcaption>
+              Fikirtepe Viyadük
+              <a href="#"></a>
+            </figcaption>
+          </figure>
+        </div>
+        <div class="col-12 col-sm-8 col-md-3 col-lg-3">
+          <figure class="imghvr-fade refopacity">
+            <img src="img/blok2-2.jpg">
+            <figcaption>
+              Köprü Ayakları
+              <a href="#"></a>
+            </figcaption>
+          </figure>
+        </div>
+        <div class="col-12 col-sm-8 col-md-3 col-lg-3">
+          <figure class="imghvr-fade refopacity">
+            <img src="img/blok2-3.jpg">
+            <figcaption>
+              Bilem Yapı
+              <a href="#"></a>
+            </figcaption>
+          </figure>
+        </div>
+        <div class="col-12 col-sm-8 col-md-3 col-lg-3">
+          <figure class="imghvr-fade refopacity">
+            <img src="img/blok2-4.jpg">
+            <figcaption>
+              Aydınlı Bina
+              <a href="#"></a>
+            </figcaption>
+          </figure>
+        </div>
+      </div>
+    </div>
+    </div>
+
+    <!-- Referanslar -->
+    <div class="container">
+      <h3 class="text-danger mt-4 mb-4">REFERANSLARIMIZ</h3>
+      <hr class="bg-danger">
+      <div class="row">
+        <div class="col-md-3 text-center">
+          <img src="img/sr-1.png" class="refopacity">
+          <h6 class="text-center h6">Belediye</h6>
+        </div>
+        <div class="col-md-3 text-center">
+          <img src="img/sr-2.png" class="refopacity">
+          <h6 class="text-center h6">Aydınlı Bina</h6>
+        </div>
+        <div class="col-md-3 text-center">
+          <img src="img/sr-3.png" class="refopacity">
+          <h6 class="text-center h6">Fabrika</h6>
+        </div>
+        <div class="col-md-3 text-center">
+          <img src="img/sr-4.png" class="refopacity">
+          <h6 class="text-center h6">Deliveroo</h6>
+        </div>
+      </div>
+    </div>
+
+    <!-- Section -->
+    <div class="section bg-light h-100">
+      <div class="container ">
+        <div class="row mt-4 p-2">
+          <div class="col-md-8">
+            <h6 class="text-danger ">HARİTA</h6>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3012.937954949179!2d28.820306315051756!3d40.960938030286144!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x14cadbac08851687%3A0x9e11a26c5c0380e5!2sBilem%20Yapi%20%C4%B0n%C5%9Faat%20Sanayi%20Ve%20Ticaret%20Limited%20%C5%9Eirketi!5e0!3m2!1str!2str!4v1575744057032!5m2!1str!2str" width="100%" height="%50" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
+          </div>
+          <div class="col-md-4">
+            <h6 class="text-danger">İLETİŞİM</h6>
+            <p class="text-muted" style="font-size: 0.8rem;">Aşağı Dudullu Sokak, No:104  ÜMRANİYE / İSTANBUL
+
+              <br>t : 05324965545 <br>
+              
+              
+              
+              m : bilemyapiinsaat@gmail.com</p>
+              <ul class="nav">
+                <li class="nav-item">
+                  <a class="nav-link text-white" href="#"
+                    ><i class="fab fa-facebook-f" style="color:red"></i
+                  ></a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link text-white" href="#"
+                    ><i class="fab fa-twitter" style="color:red"></i
+                  ></a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link text-white" href="#"
+                    ><i class="fab fa-youtube" style="color:red"></i
+                  ></a>
+                </li>
+              </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!--Footer-->
+    <footer class="bg-dark"> 
+    <div class="container">
+      <div class="row p-3">
+        <div class="col-md-8">
+            <a href="#" class="text-center ml-2">Ana Sayfa</a>
+            <a href="#" class="text-center ml-2">Hakkımızda</a>
+            <a href="#" class="text-center ml-2">Sorumluluklarımız</a>
+            <a href="#" class="text-center ml-2">Projeler</a>
+            <a href="#" class="text-center ml-2">İletişim</a>
+        </div>
+        <div class="col-md-4">
+          <p class="float-right text-secondary">@Tüm Hakları Saklıdır.</p>
+          
+        </div>
+      </div>
+    
+    </div>
+    </footer>
+
+    <script>
+      $(".carousel").carousel({
+        interval: 800
+      });
+    </script>
+    <script
+      src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+      integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+      integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+      integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
